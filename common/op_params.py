@@ -71,7 +71,7 @@ class opParams:
     """
 
     VT = ValueTypes()
-    self.fork_params = {'awareness_factor': Param(6., VT.number, 'Multiplier for the awareness times'),
+    self.fork_params = {'awareness_factor': Param(900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000., VT.number, 'Multiplier for the awareness times'),
                         #'alca_min_speed': Param(20, VT.number, 'Speed limit to start ALC in MPH'),
                         #'alca_nudge_required': Param(False, bool, "Require nudge to start ALC"),
                         #'autoUpdate': Param(True, bool, 'Whether to auto-update'),
